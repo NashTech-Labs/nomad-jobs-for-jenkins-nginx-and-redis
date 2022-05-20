@@ -22,12 +22,12 @@ This template uses the docker driver as well as java driver of nomad to run the 
 
 1. To apply a job on hashicorp run below commad
 
-    nomad job run nginx/nginx.hcl
+        nomad job run nginx/nginx.hcl
 
 2. Check status
 
-    nomad job status <job-name>
+        nomad job status <job-name>
 
 3. Stop a job
 
-    nomad job stop <job-name>
+        nomad job stop <job-name>
